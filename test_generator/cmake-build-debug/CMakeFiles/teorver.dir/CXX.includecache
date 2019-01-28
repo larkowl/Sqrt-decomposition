@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/milkah/CLionProjects/teorver/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+cmath
+-
+random
+-
+algorithm
+-
+
