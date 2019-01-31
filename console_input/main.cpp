@@ -37,7 +37,7 @@ int input_integer(string to_check) {
             stringstream ss;
             ss << str;
             ss >> number;
-            if ((to_check == "size" && number < 0) || ((to_check == "left" || to_check == "right") && number < 1)
+            if ((to_check == "size" && number < 1) || ((to_check == "left" || to_check == "right") && number < 1)
                             || ((to_check == "left" || to_check == "right") && number > elements.size())) {
                 std::cout << "Wrong input" << std::endl;
                 continue;
